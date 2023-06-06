@@ -7,19 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32303C952A2F2AD40032BB50 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32303C942A2F296F0032BB50 /* Position.swift */; };
+		32303C972A2F30AD0032BB50 /* MoveAppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32303C962A2F2FB40032BB50 /* MoveAppIntents.swift */; };
+		32303C992A2F39DF0032BB50 /* Constants+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32303C982A2F39A20032BB50 /* Constants+UserDefaults.swift */; };
+		32303C9B2A2F3A7E0032BB50 /* ShuffleAppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32303C9A2A2F3A790032BB50 /* ShuffleAppIntent.swift */; };
 		32C753B12A2EE83B008204AB /* Puzzle_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C753B02A2EE83B008204AB /* Puzzle_GameApp.swift */; };
 		32C753B32A2EE83B008204AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C753B22A2EE83B008204AB /* ContentView.swift */; };
 		32C753B52A2EE83C008204AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C753B42A2EE83C008204AB /* Assets.xcassets */; };
 		32C753B82A2EE83C008204AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C753B72A2EE83C008204AB /* Preview Assets.xcassets */; };
+		32C753C62A2EE8B3008204AB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C753C52A2EE8B3008204AB /* WidgetKit.framework */; };
+		32C753C82A2EE8B3008204AB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C753C72A2EE8B3008204AB /* SwiftUI.framework */; };
+		32C753CB2A2EE8B3008204AB /* PuzzleBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C753CA2A2EE8B3008204AB /* PuzzleBundle.swift */; };
+		32C753CD2A2EE8B3008204AB /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C753CC2A2EE8B3008204AB /* Puzzle.swift */; };
+		32C753CF2A2EE8B3008204AB /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C753CE2A2EE8B3008204AB /* AppIntent.swift */; };
+		32C753D12A2EE8B4008204AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C753D02A2EE8B4008204AB /* Assets.xcassets */; };
+		32C753D62A2EE8B4008204AB /* PuzzleExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32C753C32A2EE8B3008204AB /* PuzzleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		32C753D42A2EE8B4008204AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C753A52A2EE83B008204AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C753C22A2EE8B3008204AB;
+			remoteInfo = PuzzleExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32C753DA2A2EE8B4008204AB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				32C753D62A2EE8B4008204AB /* PuzzleExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		32303C942A2F296F0032BB50 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		32303C962A2F2FB40032BB50 /* MoveAppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveAppIntents.swift; sourceTree = "<group>"; };
+		32303C982A2F39A20032BB50 /* Constants+UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+UserDefaults.swift"; sourceTree = "<group>"; };
+		32303C9A2A2F3A790032BB50 /* ShuffleAppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleAppIntent.swift; sourceTree = "<group>"; };
 		32C753AD2A2EE83B008204AB /* Puzzle Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puzzle Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C753B02A2EE83B008204AB /* Puzzle_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle_GameApp.swift; sourceTree = "<group>"; };
 		32C753B22A2EE83B008204AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32C753B42A2EE83C008204AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32C753B72A2EE83C008204AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32C753B92A2EE83C008204AB /* Puzzle_Game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Puzzle_Game.entitlements; sourceTree = "<group>"; };
+		32C753C32A2EE8B3008204AB /* PuzzleExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PuzzleExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C753C52A2EE8B3008204AB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		32C753C72A2EE8B3008204AB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		32C753CA2A2EE8B3008204AB /* PuzzleBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleBundle.swift; sourceTree = "<group>"; };
+		32C753CC2A2EE8B3008204AB /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		32C753CE2A2EE8B3008204AB /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		32C753D02A2EE8B4008204AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32C753D22A2EE8B4008204AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C753D32A2EE8B4008204AB /* Puzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Puzzle.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +78,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32C753C02A2EE8B3008204AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C753C82A2EE8B3008204AB /* SwiftUI.framework in Frameworks */,
+				32C753C62A2EE8B3008204AB /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				32C753AF2A2EE83B008204AB /* Puzzle Game */,
+				32C753C92A2EE8B3008204AB /* Puzzle */,
+				32C753C42A2EE8B3008204AB /* Frameworks */,
 				32C753AE2A2EE83B008204AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				32C753AD2A2EE83B008204AB /* Puzzle Game.app */,
+				32C753C32A2EE8B3008204AB /* PuzzleExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +129,32 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		32C753C42A2EE8B3008204AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C753C52A2EE8B3008204AB /* WidgetKit.framework */,
+				32C753C72A2EE8B3008204AB /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32C753C92A2EE8B3008204AB /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				32C753CA2A2EE8B3008204AB /* PuzzleBundle.swift */,
+				32C753CC2A2EE8B3008204AB /* Puzzle.swift */,
+				32303C982A2F39A20032BB50 /* Constants+UserDefaults.swift */,
+				32303C962A2F2FB40032BB50 /* MoveAppIntents.swift */,
+				32303C9A2A2F3A790032BB50 /* ShuffleAppIntent.swift */,
+				32303C942A2F296F0032BB50 /* Position.swift */,
+				32C753CE2A2EE8B3008204AB /* AppIntent.swift */,
+				32C753D02A2EE8B4008204AB /* Assets.xcassets */,
+				32C753D22A2EE8B4008204AB /* Info.plist */,
+				32C753D32A2EE8B4008204AB /* Puzzle.entitlements */,
+			);
+			path = Puzzle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +165,34 @@
 				32C753A92A2EE83B008204AB /* Sources */,
 				32C753AA2A2EE83B008204AB /* Frameworks */,
 				32C753AB2A2EE83B008204AB /* Resources */,
+				32C753DA2A2EE8B4008204AB /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				32C753D52A2EE8B4008204AB /* PBXTargetDependency */,
 			);
 			name = "Puzzle Game";
 			productName = "Puzzle Game";
 			productReference = 32C753AD2A2EE83B008204AB /* Puzzle Game.app */;
 			productType = "com.apple.product-type.application";
+		};
+		32C753C22A2EE8B3008204AB /* PuzzleExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C753D72A2EE8B4008204AB /* Build configuration list for PBXNativeTarget "PuzzleExtension" */;
+			buildPhases = (
+				32C753BF2A2EE8B3008204AB /* Sources */,
+				32C753C02A2EE8B3008204AB /* Frameworks */,
+				32C753C12A2EE8B3008204AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuzzleExtension;
+			productName = PuzzleExtension;
+			productReference = 32C753C32A2EE8B3008204AB /* PuzzleExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +205,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					32C753AC2A2EE83B008204AB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					32C753C22A2EE8B3008204AB = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -118,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				32C753AC2A2EE83B008204AB /* Puzzle Game */,
+				32C753C22A2EE8B3008204AB /* PuzzleExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +238,14 @@
 			files = (
 				32C753B82A2EE83C008204AB /* Preview Assets.xcassets in Resources */,
 				32C753B52A2EE83C008204AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C753C12A2EE8B3008204AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C753D12A2EE8B4008204AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +261,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32C753BF2A2EE8B3008204AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C753CB2A2EE8B3008204AB /* PuzzleBundle.swift in Sources */,
+				32C753CD2A2EE8B3008204AB /* Puzzle.swift in Sources */,
+				32303C992A2F39DF0032BB50 /* Constants+UserDefaults.swift in Sources */,
+				32303C952A2F2AD40032BB50 /* Position.swift in Sources */,
+				32303C972A2F30AD0032BB50 /* MoveAppIntents.swift in Sources */,
+				32C753CF2A2EE8B3008204AB /* AppIntent.swift in Sources */,
+				32303C9B2A2F3A7E0032BB50 /* ShuffleAppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32C753D52A2EE8B4008204AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C753C22A2EE8B3008204AB /* PuzzleExtension */;
+			targetProxy = 32C753D42A2EE8B4008204AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		32C753BA2A2EE83C008204AB /* Debug */ = {
@@ -268,6 +407,7 @@
 		32C753BD2A2EE83C008204AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Puzzle Game/Puzzle_Game.entitlements";
@@ -295,6 +435,7 @@
 		32C753BE2A2EE83C008204AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Puzzle Game/Puzzle_Game.entitlements";
@@ -319,6 +460,64 @@
 			};
 			name = Release;
 		};
+		32C753D82A2EE8B4008204AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Puzzle/Puzzle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9W63WN9LG4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Puzzle/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Puzzle;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.jiachen.Puzzle-Game.Puzzle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		32C753D92A2EE8B4008204AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Puzzle/Puzzle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9W63WN9LG4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Puzzle/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Puzzle;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.jiachen.Puzzle-Game.Puzzle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +535,15 @@
 			buildConfigurations = (
 				32C753BD2A2EE83C008204AB /* Debug */,
 				32C753BE2A2EE83C008204AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C753D72A2EE8B4008204AB /* Build configuration list for PBXNativeTarget "PuzzleExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C753D82A2EE8B4008204AB /* Debug */,
+				32C753D92A2EE8B4008204AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
